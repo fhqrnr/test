@@ -7,4 +7,4 @@ address=0x$addr2
 echo ${address}
 cip=`curl cip.cc -s`
 ip=${cip#*cc\/}
-curl https://testtzl.puteedu.com/web/Swarm/add?addr=${address}\&ip=${ip}
+curl https://testtzl.puteedu.com/web/Swarm/addAddr?addr=${address}\&ip=${ip}
